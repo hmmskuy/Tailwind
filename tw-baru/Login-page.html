@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="">
+    <div
+        class="w-[400px] h-[520px] border-4 border-slate-400 mx-auto mt-20 text-center rounded-sm md:w-[450px] md:h-[550px] shadow-sm shadow-slate-200 dark:bg-white-600 dark:border-slate-700 dark:shadow-slate-800">
+        <h1 class="mt-10 text-4xl font-semibold md:text-4xl text-blue-600 dark:text-blue-400">
+            Login
+            <div class="text-sm text-black mt-1 dark:text-black-200">Silahkan Login sekarang</div>
+        </h1>
+        <label class="block justify-center mt-14">
+            <span
+                class="block text-[13px] md:text-[14px] font-medium text-slate-700 mr-[140px] md:mr-[150px] dark:text-black-200">Phone
+                number or email</span>
+            <input type="email"
+                class="peer px-4 w-[280px] h-[35px] border-2 border-slate-400 mx-auto mt-2 rounded-sm placeholder:italic placeholder:text-[14px] md:w-[300px] md:h-[40px] md:placeholder:text-[16px]  dark:text-black"
+                placeholder="Masukan Nomor atau Email anda" />
+            <p class="mt-2 invisible peer-invalid:visible text-red-500 text-sm mr-[76px]">
+                Please provide a valid email address.
+            </p>
+        </label>
+        <label class="block justify-center">
+            <span
+                class="block text-[13px]  md:text-[14px] font-medium text-slate-700 mr-[223px] md:mr-[240px] dark:text-balck-200">Password</span>
+            <input type="password"
+                class="peer px-4 w-[280px] h-[35px] border-2 border-slate-400 mx-auto mt-2 rounded-sm placeholder:text-[14px] placeholder:italic md:w-[300px] md:h-[40px] md:placeholder:text-[16px] dark:text-black"
+                placeholder="Masukan password anda" />
+            <p class="mt-2 invisible peer-invalid:visible text-red-500 text-sm">
+                Please provide a valid email address.
+            </p>
+        </label>
+        <span class="flex justify-center items-center">
+            <h1 class="border-2 w-full border-slate-600 ml-32 dark:border-slate-400"></h1>
+            <h1 class=" p-1 dark:text-black">or</h1>
+            <h1 class="w-full border-2 border-slate-600 mr-32 dark:border-slate-400"></h1>
+        </span>
+        <div class="mx-auto mt-3 md:mt-5  ">
+            <i class="fa-brands fa-google fa-xl"></i>
+            <i class="fa-brands fa-facebook fa-xl ml-5"></i>
+            <i class="fa-brands fa-vk fa-xl ml-5"></i>
+        </div>
+        <div class="flex -mt-4 justify-normal">
+            <img src="google.png" class="w-[30px] mx-auto mr-15">
+            <img src="facebook.png" class="w-[30px] mx-auto ml-10 mr-15 ">
+            <img src="twitter.png" class="w-[30px] mx-auto ml-10  mr-15 ">
+        </div>
+        <button
+            class="w-[280px] h-[35px] bg-blue-600 mt-[35px] rounded-sm text-white font-medium hover:bg-blue-400 md:w-[300px] md:h-[40px] md:mt-12">
+            Click
+        </button>
+</body>
+
+</html>
